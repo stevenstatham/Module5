@@ -96,6 +96,7 @@ namespace URL_encoder
 						{
 							Console.WriteLine("Input Invalid! Please do not use any control characters and input a new Project Name: ");
 							projectName = Console.ReadLine();
+							break;
 						}
 						else
 						{
@@ -103,6 +104,7 @@ namespace URL_encoder
 							{
 								Console.WriteLine("Input Invalid! Please do not use any control characters and input a new Project Name: ");
 								projectName = Console.ReadLine();
+								break;
 							}
 							else
 							{
